@@ -162,17 +162,12 @@ This project was a great opportunity to showcase my skills in Next.js, Tailwind 
 
 ---
 
-## Timeline
-
-- **Received Task**: June 01, 2025
-- **Completed Development**: June 03, 2025
-- **Submitted**: June 04, 2025 (at 02:26 AM IST, within 3 days of receipt)
 
 ---
 
 ## Contact
 
-For any questions or feedback, please reach out via email (if provided during submission). Thank you for reviewing my submission!
+For any questions or feedback, please reach out via email(Shashank272004@gmail.com). Thank you for reviewing my submission!
 
 ---
 ```

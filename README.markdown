@@ -1,4 +1,4 @@
-```markdown
+
 # MathonGo Sample Task - Frontend Web Developer Submission
 
 This repository contains my submission for the MathonGo Frontend Web Developer sample task. The goal was to recreate the provided UI screens using Next.js, Tailwind CSS, and shadcn/ui, ensuring pixel-perfect design, responsiveness, and functionality as per the requirements. Below, you'll find details about the project, setup instructions, and how it meets the scoring criteria.
@@ -245,30 +245,3 @@ For any questions or feedback, please reach out via email (if provided during su
 
 ---
 ```
-
-### Changes Made
-1. **Removed Submission Form Link**:
-   - Deleted the line `- **Submission Form**: [Google Form Link](#) *(Replace with the provided form link)*` from the **Project Overview** section.
-   - Adjusted the **Contact** section to remove references to the submission form, now suggesting reviewers reach out via email (assumed to be provided during submission).
-
-2. **Updated Timeline**:
-   - Modified the **Timeline** section to include the exact submission time: `June 04, 2025 (at 02:26 AM IST, within 3 days of receipt)`.
-
-3. **Retained Previous Updates**:
-   - Kept the sample video link (`https://youtu.be/2DuRY4u0YsM`), GitHub repository link (`https://github.com/shashank6993/mathon-go-study`), and deployed Vercel link (`https://mathon-go-study.vercel.app/`) as added in the previous update.
-
-### Next Steps
-1. **Add Screenshots**:
-   - Capture screenshots of the app in light/dark mode, mobile/desktop views, and key features (e.g., filters, tabs).
-   - Host them on a service like Imgur or GitHub and add the links to the **Screenshots** section.
-2. **Test the README**:
-   - Preview the README on GitHub to ensure formatting renders correctly.
-3. **Submit**:
-   - Push the updated README to your GitHub repository (`https://github.com/shashank6993/mathon-go-study`).
-   - Submit as per the instructions provided by MathonGo (e.g., via email or another method since the form link was removed).
-
-### Notes
-- **Time Zone**: The README reflects the current time (02:26 AM IST, June 04, 2025) in the timeline section.
-- **Consistency**: The README maintains its focus on the scoring breakdown and provides all necessary links (live demo, GitHub, sample video) for reviewers.
-
-If you have additional updates (e.g., adding screenshots, changing contact details), let me know, and I’ll adjust the README further!

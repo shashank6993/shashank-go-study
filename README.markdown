@@ -11,7 +11,7 @@ The MathonGo sample task required building a web application for JEE Main prepar
 
 - **Live Demo**: [https://mathon-go-study.vercel.app/](https://mathon-go-study.vercel.app/)
 - **GitHub Repository**: [https://github.com/shashank6993/mathon-go-study](https://github.com/shashank6993/mathon-go-study)
-- **Sample Video**: [https://youtu.be/2DuRY4u0YsM](https://youtu.be/2DuRY4u0YsM)
+- **Demostrating Video**: [https://youtu.be/2DuRY4u0YsM](https://youtu.be/2DuRY4u0YsM)
 
 ---
 
@@ -45,79 +45,7 @@ The project implements all required features, ensuring a seamless user experienc
 - **Authentication**: Integrated Clerk for user authentication, protecting the `Dashboard` route.
 - **Mock JSON Integration**: Fetches and displays chapter data using TanStack Query.
 
----
 
-## Scoring Breakdown
-
-### 1. UI Accuracy (30 Marks)
-- **Achievement**: The UI closely matches the provided Figma screens in terms of fonts, spacing, layout, colors, and component interactions.
-- **Details**:
-  - Used Tailwind CSS and shadcn/ui components to replicate the design.
-  - Ensured pixel-perfect alignment with consistent padding, margins, and typography.
-  - Implemented the exact color scheme (e.g., `bg-orange-500` for Physics, `bg-green-500` for Chemistry, `bg-gray-700` for Mathematics).
-  - Replicated the mobile view with horizontal scrollable tabs and the desktop view with a sidebar layout.
-- **Evidence**: Compare the deployed app with the Figma screens for layout, spacing, and visual fidelity.
-
-### 2. Responsiveness (15 Marks)
-- **Achievement**: The app is fully responsive across mobile and desktop devices.
-- **Details**:
-  - Mobile view (`<lg`): Horizontal scrollable tabs for subjects, hidden sidebar, and a compact chapter list.
-  - Desktop view (`lg` and above): Sidebar with subject navigation, full-width chapter list, and improved spacing.
-  - Used Tailwind’s responsive utilities (e.g., `lg:hidden`, `sm:grid-cols-3`) to ensure seamless transitions between breakpoints.
-  - Tested on various screen sizes (e.g., 375px for mobile, 1280px for desktop).
-- **Evidence**: Test the app on different devices or use browser dev tools to simulate mobile (375px) and desktop (1280px) views.
-
-### 3. Functionality (20 Marks)
-- **Achievement**: All required features (filters, tabs, sorting, dark mode) work as expected.
-- **Details**:
-  - **Tabs**: Clicking Physics, Chemistry, or Mathematics updates the chapter list and filters dynamically.
-  - **Filters**:
-    - Class and Units dropdowns populate unique values based on the active subject, supporting multi-selection.
-    - "Weak Chapters" and "Not Started" toggles filter the list (mock logic applied).
-    - Chapter count updates dynamically when filters are applied.
-  - **Sorting**: Toggle between ascending and descending order for chapters.
-  - **Dark Mode**: System-preferred theme toggle in the `Header` component, with colors adapting to `dark:bg-[#222E3F]`.
-  - **Icons & Indicators**: Up/down arrows in green/red for year-wise question trends (e.g., 2025 vs. 2024).
-- **Evidence**: Interact with the app to verify that tabs switch subjects, filters update the list, sorting works, and dark mode toggles correctly.
-
-### 4. Code Quality (10 Marks)
-- **Achievement**: The code is clean, modular, and reusable.
-- **Details**:
-  - Organized components into separate files (e.g., `Header`, `Dashboard`, `Home`).
-  - Created reusable hooks (`useChapters`, `useFilteredChapters`, `useUniqueValues`) to handle data fetching and filtering logic.
-  - Used TypeScript for type safety (assumed based on modern Next.js practices).
-  - Followed consistent naming conventions and folder structure (`@/components`, `@/hooks`).
-  - Added comments for clarity where needed (e.g., in `getRandomIcon` function).
-- **Evidence**: Review the codebase for modularity (e.g., `components/header.tsx`), readability, and organization.
-
-### 5. State Management (10 Marks)
-- **Achievement**: Efficient state management using TanStack Query and React hooks.
-- **Details**:
-  - Used TanStack Query (`useChapters`) to fetch and cache mock JSON data, minimizing re-renders.
-  - Local state (`useState`) for UI interactions (e.g., `activeSubject`, `weakChaptersOnly`, `selectedClasses`).
-  - Derived state (`useFilteredChapters`, `useUniqueValues`) to compute filtered chapters and unique filter values, avoiding redundant computations.
-  - Minimal state updates to ensure performance (e.g., resetting filters when the subject changes via `useEffect`).
-- **Evidence**: Check the `hooks` folder for `useChapters`, `useFilteredChapters`, and `useUniqueValues`. Test the app for smooth state updates (e.g., filter changes, tab switches).
-
-### 6. Deployment (5 Marks)
-- **Achievement**: Successfully deployed on Vercel with a public GitHub repository.
-- **Details**:
-  - Created a public GitHub repository with a random name to avoid plagiarism.
-  - Pushed all code, including `.env.example` for environment variables (without sensitive data).
-  - Deployed the app on Vercel, ensuring environment variables (e.g., Clerk API keys) are configured.
-  - The live demo is accessible and functional.
-- **Evidence**: Access the live demo link and GitHub repository to verify deployment and code availability.
-
-### 7. Bonus (10 Marks)
-- **Achievement**: Added Clerk authentication as an out-of-the-box feature.
-- **Details**:
-  - Integrated Clerk for user authentication, protecting the `Dashboard` route.
-  - Added a `Home` page (`/`) with sign-in/sign-up options for unauthenticated users and a "Go to Dashboard" button for authenticated users.
-  - Implemented a `UserButton` in the `Header` and `Dashboard` for user profile management (e.g., sign-out).
-  - Enhanced user experience by redirecting unauthenticated users to the sign-in page when accessing `/dashboard`.
-- **Evidence**: Sign in/out using the live demo to test the authentication flow. Visit the `Home` page (`/`) and `Dashboard` page (`/dashboard`) to see the behavior for authenticated and unauthenticated users.
-
----
 
 ## Project Structure
 
@@ -225,9 +153,12 @@ This project was a great opportunity to showcase my skills in Next.js, Tailwind 
 
 *(Add screenshots of the app in light/dark mode, mobile/desktop views, and key features like filters and tabs. You can use a tool like ShareX or browser dev tools to capture these.)*
 
-- **Home Page (Light Mode)**: [Link to Screenshot](#)
-- **Dashboard (Mobile, Dark Mode)**: [Link to Screenshot](#)
-- **Filters in Action (Desktop)**: [Link to Screenshot](#)
+- **Home Page (Light Mode)**: ![image](https://github.com/user-attachments/assets/8945691d-19db-4085-8bee-c068cc65c9e8)
+(#)
+- **Dashboard (Mobile, Dark Mode)**:![image](https://github.com/user-attachments/assets/3f559e47-7faa-4d90-b4ee-7222bbf7f2f8)
+(#)
+- **Filters in Action (Desktop)**: ![image](https://github.com/user-attachments/assets/0912d791-9e76-4125-bc78-939b408e8eec)
+(#)
 
 ---
 

@@ -3,17 +3,27 @@
 
 This repository contains my submission for the MathonGo Frontend Web Developer sample task. The goal was to recreate the provided UI screens using Next.js, Tailwind CSS, and shadcn/ui, ensuring pixel-perfect design, responsiveness, and functionality as per the requirements. Below, you'll find details about the project, setup instructions, and how it meets the scoring criteria.
 
----
+
 
 ## Project Overview
 
 The MathonGo sample task required building a web application for JEE Main preparation, featuring a chapter list view with tabs for Physics, Chemistry, and Mathematics, along with filters, sorting, and a light/dark mode toggle. The app integrates mock JSON data and uses Phosphor Icons for chapter icons. The project is deployed on Vercel and hosted in a public GitHub repository.
 
-- **Live Demo**: [https://mathon-go-study.vercel.app/](https://mathon-go-study.vercel.app/)
-- **GitHub Repository**: [https://github.com/shashank6993/mathon-go-study](https://github.com/shashank6993/mathon-go-study)
-- **Demostrating Video**: [https://youtu.be/2DuRY4u0YsM](https://youtu.be/2DuRY4u0YsM)
 
----
+
+
+## Documentary Video
+
+To learn more about MathonGo Study and see a walkthrough of its features, watch documentary video:
+
+### Watch the MathonGo Study Documentary Video
+
+[![alt text](https://github.com/user-attachments/assets/8945691d-19db-4085-8bee-c068cc65c9e8)](https://youtu.be/2DuRY4u0YsM)
+
+## Deployed on Vercel :  [MathonGo-Study](https://mathon-go-study.vercel.app/)
+
+
+
 
 ## Tech Stack
 
